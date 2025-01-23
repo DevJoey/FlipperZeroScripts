@@ -193,3 +193,4 @@ eventloop.subscribe(gui.viewDispatcher.navigation, function (_sub, _, eventLoop)
 
 init();
 eventloop.run();
+badusb.quit();
