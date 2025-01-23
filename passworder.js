@@ -20,20 +20,20 @@ let generatedPassword = "";
 
 let views = {
     lengthChooser: subMenu.makeWith({
-        header: "Wie lang?",
-        items: ["5", "8", "40", "45", "100"]
+        header: "Wie lang ist dein Schwanz?",
+        items: ["5cm", "8mm", "40m", "45km", "100nb"]
     }),
     nameInput: textinput.makeWith({
         header: "Name"
     }),
     generated: dialog.makeWith({
-        header: "Passwort erstellt!",
+        header: "Fotze erstellt!",
         text: "Das Passwort wurde erstellt und gespeichert!",
         center: "Weiter",
         right: "Ende"
     }),
     sendDialog: dialog.makeWith({
-        header: "Passwort senden",
+        header: "Fotze senden",
         text: "Soll das Passwort gesendet werden?",
         center: "Senden",
         right: "Fertig"
